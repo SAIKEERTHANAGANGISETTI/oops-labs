@@ -4,14 +4,14 @@ void evenorodd(int n)
 {
     if(n>0)
     {
-    if(n%2==0)
-    {
-        cout<<n<<" is Even number!"<<endl;
-    }
-    else
-    {
-        cout<<n<<" is odd number!"<<endl;
-    }
+        if(n%2==0)
+        {
+            cout<<n<<" is Even number!"<<endl;
+        }
+        else
+        {
+            cout<<n<<" is odd number!"<<endl;
+        }
     }
     else
     {
